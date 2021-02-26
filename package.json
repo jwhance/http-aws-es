@@ -1,6 +1,6 @@
 {
   "name": "@jwhance/http-aws-es",
-  "version": "6.1.1",
+  "version": "6.1.2",
   "description": "Use the elasticsearch-js client with Amazon ES (Updated for elasticsearch 16.7.2)",
   "repository": "https://github.com/jwhance/http-aws-es",
   "bugs": "https://github.com/jwhance/http-aws-es/issues",

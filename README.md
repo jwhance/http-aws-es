@@ -9,7 +9,19 @@ been abandoned with no PR in a long time.
 
 ```bash
 # Install the connector, elasticsearch client and aws-sdk
-npm install --save jwhance@http-aws-es aws-sdk elasticsearch
+npm install --save @jwhance/http-aws-es aws-sdk elasticsearch
+```
+
+# package.json
+
+```
+Something like this:
+
+  "dependencies": {
+    "@jwhance/http-aws-es": "6.1.2",
+    "aws-sdk": "2.831.0",
+    "elasticsearch": "16.7.2",
+
 ```
 
 ## Usage
@@ -18,7 +30,7 @@ npm install --save jwhance@http-aws-es aws-sdk elasticsearch
 // create an elasticsearch client for your Amazon ES
 let es = require("elasticsearch").Client({
   hosts: ["https://amazon-es-host.us-east-1.es.amazonaws.com"],
-  connectionClass: require("http-aws-es"),
+  connectionClass: require("@jwhance/http-aws-es"),
 });
 ```
 
