@@ -1,9 +1,9 @@
 {
-  "name": "http-aws-es",
+  "name": "@jwhance/http-aws-es",
   "version": "6.1.1",
-  "description": "Use the elasticsearch-js client with Amazon ES",
-  "repository": "https://github.com/TheDeveloper/http-aws-es",
-  "bugs": "https://github.com/TheDeveloper/http-aws-es/issues",
+  "description": "Use the elasticsearch-js client with Amazon ES (Updated for elasticsearch 16.7.2)",
+  "repository": "https://github.com/jwhance/http-aws-es",
+  "bugs": "https://github.com/jwhance/http-aws-es/issues",
   "keywords": [
     "elasticsearch",
     "elasticsearch-js",
@@ -19,7 +19,7 @@
   "main": "connector.js",
   "peerDependencies": {
     "aws-sdk": "^2.138.0",
-    "elasticsearch": "^16.7.2"
+    "elasticsearch": "~16.7.2"
   },
   "devDependencies": {
     "aws-sdk": "^2.138.0",
@@ -43,6 +43,6 @@
   "browser": {
     "./src/node.js": "./src/xhr.js"
   },
-  "author": "Geoff Wagstaff <geoff@gosquared.com>",
+  "author": "Joseph Hance <jwh20@hotmail.com>",
   "license": "MIT"
 }
